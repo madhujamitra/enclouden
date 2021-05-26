@@ -1,0 +1,30 @@
+[
+    {
+        "username": "uer1",
+        "password": "test",
+       
+        "comment": [
+            {
+                "questions": "Why is diff between angular 1 and angular 2",
+                "liked" :[ {"user": "user1"}, {"user": "user2" } ],
+                "disliked" :[{"user": "user3"}],
+                "reply": [
+                    {
+                        "user": "user2",
+                        "reply": "check angular.org for answer you dumb"
+                        
+                    
+                    },
+                    {
+                        "user": "user3",
+                        "reply": "angular 2 is compoonent based where as angular 1 follow MVC"
+                    }
+                ]
+            },
+            {
+                "questions": "what i reqactJs"
+            }
+        ]
+        
+    }
+]

@@ -1,0 +1,14 @@
+<div class="login-wrapper container">
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Register</mat-card-title>
+    </mat-card-header>
+
+    <form #userPost="ngForm" (ngSubmit)="registerUser(userPost.value)">
+      <input class="input-style" type="text" name="userName" ngModel placeholder="userName"><br><br>
+      <input class="input-style" type="text" name="password" ngModel placeholder="password"><br><br>
+      <button type="submit"> submit data</button>
+
+    </form>
+  </mat-card>
+</div>

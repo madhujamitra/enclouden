@@ -1,0 +1,7 @@
+<div class="flex-container">
+    <form #userQuery="ngForm" (ngSubmit)="newQuery(userQuery.value)"  >
+        <label for="question">Add question</label>
+        <input type="text" name="question" ngModel  placeholder="New question">Hi<br><br>
+        <button type="submit"> submit data</button>
+    </form>  
+</div>
